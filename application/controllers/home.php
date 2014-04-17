@@ -116,7 +116,7 @@ class Home extends CI_Controller {
 				<input type="hidden" id="ascensor_propiedad_'.$post_original.'"value='.$querymasinforesultados19[0]['meta_value'].'>
 				<input type="hidden" id="deposito_propiedad_'.$post_original.'"value='.$querymasinforesultados20[0]['meta_value'].'>
 				<input type="hidden" id="furnishing_propiedad_'.$post_original.'"value='.$querymasinforesultados21[0]['meta_value'].'>
-				sss
+				
 
 			
 			<img class="propiedad_img_prin"width=230px height=150px src='.$queryimgresultados[0]['guid'].'>	<div style="display:inline-block;width:62%;margin-bottom:10px;"><div class="pull-left"></img><small>COD:'.$var_posts[$a]['post_title'].'</small></div><div class="pull-right">'.$querymasinforesultados4[0]['meta_value'].'</div></div><br><div class="imgs_propiedad_icons"> <div class="pull-left mas_info_box_txt">+ Mas información</div><div class="pull-right" style="width:50%;">'.$querymasinforesultados[0]['meta_value'].' <img src="assets/img_principal/icon_shower.png" width="22" height="16">  '.$querymasinforesultados2[0]['meta_value'].' <img src="assets/img_principal/icon_bed.png" width="22" height="16">    '.$querymasinforesultados3[0]['meta_value']. '  <img src="assets/img_principal/icon_car.png" width="22" height="16"></div></div></div>';
