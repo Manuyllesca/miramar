@@ -1,0 +1,375 @@
+@font-face
+{
+font-family: harabara;
+src: url('../../assets/fonts/Harabara.ttf');
+font-weight: bold;
+}
+article input[type='text']{
+	border-radius: 4px;
+	border:1px solid rgba(2,2,2,0.29);
+}
+
+textarea {
+    resize: none;
+}
+
+article textarea{
+	border-radius:2px;
+	border:1px solid rgba(0,0,0,0.3);
+}
+.novedad_propiedad{
+	text-align: center;
+	width:120px;
+	height:100%;
+	padding-top:10px;
+	border-right:1px solid rgba(119, 117, 117, 0.72);
+}
+.status_propiedad{
+	width:410px;
+	padding-top:10px;
+	text-align: center;
+}
+.zona_propiedad{
+	text-align: center;
+	width:240px;
+	height:100%;
+	padding-top:10px;
+	border-right:1px solid rgba(119, 117, 117, 0.72);
+}
+.select_zona_propiedad{
+	width:150px;
+}
+.imgs_propiedad_icons{
+width: 100%;
+word-spacing: 4px;
+}
+.mas_info_box_txt:hover{
+	text-decoration: underline;
+	
+}
+.mas_info_box_txt{
+	margin-left: 10px;
+	word-spacing: 0px;
+}
+
+.propiedad_img_prin{
+	transition:1s;
+	cursor:pointer;
+	border: 4px double #CACACA;
+	}
+.propiedad_img_prin:hover{
+width: 73%;
+border-radius: 2px;
+height: 74%;
+}
+.tipo_propiedad{
+	
+	text-align: center;
+	padding:10px;
+	width:180px;
+	height:100%;
+	border-right:1px solid rgba(119, 117, 117, 0.72);
+}
+.btn_search{
+	width:100px;
+}
+.contenedor_busqueda_box{
+	
+	height:92%;
+	overflow-y:scroll;
+	display:inline-block;
+	width:100%;
+	padding-left:6px;
+	padding-top:5px;
+	
+}
+.btn_buscar_propiedad{
+	border-left:1px solid rgba(119, 117, 117, 0.72);
+	width:120px;
+	text-align: center;
+	height:100%;
+	padding:2px;
+}
+.result_busqueda_box:hover{
+background-color:rgba(236, 227, 227, 0);
+}
+.result_busqueda_box{	
+	cursor:pointer;
+	transition:0.4s;
+	margin-left: 1px;
+	padding-top: 5px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	width: 33%;
+	height: 44%;
+	background-color: rgba(255, 255, 255, 0.67);
+	border-radius: 5px;
+}
+.box_propiedades{
+	box-shadow:3px -1px 46px -1px #000;
+	background-color:rgba(255, 255, 255, 0.35);
+	border-radius: 4px 4px 0px 0px;
+	margin:0 auto;
+	position:relative;
+	width:97%;
+	height:70%;
+	border:1px solid rgba(158, 158, 158, 0.28);
+	top:120px;
+}
+.header_propiedades{
+	padding-left:10px;
+	border-bottom:1px solid #AD8A8A;
+	position:relative;
+	height:40px;
+	background-color:rgba(255, 223, 55, 0.5);
+}
+.min-logo-text{
+	font-size:22px;
+	text-align: center;
+	color:white;
+	text-shadow: 0px 1px 1px #000;
+	font-weight: 100;
+}
+.logo-middle{
+text-align: center;
+display:block;
+top: 75%;
+position: relative;
+margin: 0 auto;
+font-weight:100;
+width: 400px;
+border: 0px solid #000;
+color: #FFF;
+letter-spacing: 1px;
+text-shadow: 0px 1px 1px #000;
+font-size: 100px;
+shape-inside: polygon(0px, 150px /* ...more points */); 
+}
+.cabecera h2{
+	cursor:pointer;
+}
+.search_title_box{
+	position: relative;
+margin: 0 auto;
+width: 1002px;
+}
+.radios{
+width: 250px;
+margin: 0 auto;
+top: 4px;
+position: relative;
+font-weight: 400;
+text-shadow: 1px 1px 1px #000;
+color: #FFF;
+}
+.links-cabe{
+	z-index:9;
+}
+.lupa_search{
+	-webkit-transform: scale(0.7);
+}
+.busqueda_search_box{
+	color:white;
+	text-align: center;
+	text-shadow: 2px 2px 6px black;
+}
+.letter-m{
+	font-style: normal;
+font-size: 129px;
+font-weight: 400;
+color:black;
+}
+.btn-search-home{
+width: 108px;
+height: 44px;
+top: -16px;
+position: relative;
+font-size: 20;
+}
+.search_box{
+margin-top:50px;
+	width: 100%;
+background-color: rgba(255, 255, 255, 0.29);
+border-radius: 18px;
+height: auto;
+padding: 20px;
+font-size:30px;
+}
+ .select_bigger{
+	
+
+	-webkit-appearance: none;
+	color:black;
+	font-weight: 100;
+	border:1px solid rgba(0, 0, 0, 0.74);
+	padding:0.3%;
+ 	overflow: hidden;
+	width:600px;
+	height:auto;
+	font-size:30px;
+}
+.container{
+	min-width: 1170px;
+}
+.links-cabe{
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 5px;
+}
+.logo-miramar{
+	margin-top:166px;
+	position: relative;
+}
+/*body{
+	
+	background: url('../../assets/img/background_8.jpg');
+	+filter: grayscale(100%) sepia(100%);
+}*/
+.pag_inicio{
+	
+	background-image: url('../../assets/img_principal/background_3.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100%;
+}
+.pag_total{
+	height:100%;
+	background-image:url('../../assets/img_principal/background_19.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.logo-miramar_quienes_somos{
+	margin-top:129px;
+	
+	position: relative;
+}
+.box_total_asesoria{
+	font-size:20px;
+	color:white;
+	text-shadow: 1px 0px 1px 1px 0px 1px #584E4E;
+	margin: 0 auto;
+	width: 70%;
+	
+	top: 100px;
+	position: relative;
+}
+.buttns_contact{
+	margin:0 auto;
+	width:333px;+
+	
+	border:1px solid black;
+}
+.pag_inmobiliaria{
+	height:100%;
+	background-image:url('../../assets/img_principal/background_8.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#contact_correo_box{
+	width:auto;
+}
+#contact_asunto_box{
+	width:auto;
+}
+.correo_asunto_box{
+	width:420px;
+	position:relative;
+}
+.contact_box input[type='text']{
+	width:200px;
+	height:29px;
+}
+.pag_asesoria_ventas{
+	height:100%;
+	background-image:url('../../assets/img_principal/background_14.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pag_contacto{
+	height:100%;
+	background-image:url('../../assets/img_principal/background_11.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact_box article{
+padding: 3px;
+color: #000;
+width: 70%;
+
+
+font-weight: 400;
+top: 10px;
+text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.29);
+}
+.box_total_asesoria{
+
+	color:black;
+	border-radius:4px;
+	padding:25px;
+	top:100px;
+	font-weight: 200;
+	position:relative;
+	height:auto;
+	width:70%;
+	background-color:rgba(255, 255, 255, 0.28);
+	margin:0 auto;
+	border:0px solid black;
+	}
+	
+.who_we_are_box{
+	
+	color:black;
+	border-radius:4px;
+	padding:25px;
+	top:0px;
+	position:relative;
+	height:auto;
+	width:64%;
+	background-color:rgba(255, 255, 255, 0.28);
+	margin:0 auto;
+	border:0px solid black;
+}
+.contact_box{
+border-radius:4px;
+padding:5px;
+top:110px;
+position:relative;
+height:auto;
+	width:64%;
+	background-color:rgba(255, 255, 255, 0.28);
+	margin:0 auto;
+}
+.cabecera{
+	
+	color: #FFF;
+margin: 0 auto;
+position: relative;
+width: auto;
+display: inline-block;
+
+}
+.contact_moreinfo_box:hover{
+	font-weight: 800;
+	font-size:15px;
+}
+.contact_moreinfo_box{
+	color:black; 
+	font-weight:400;
+}
+.cabecera .pull-left{
+	margin-left:35px;
+	position:relative;
+	float:right;
+	width:auto;
+	border:0px solid black;
+	text-shadow:-1px 0px 4px #000;
+	transition:0.4s;
+}
+.cabecera .pull-left:hover{
+color:black;
+text-shadow:0px 0px 0px;
+
+}
+body{
+		transition:0.6s;
+		
+}
