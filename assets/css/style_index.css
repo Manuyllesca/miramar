@@ -13,6 +13,69 @@ textarea {
     resize: none;
 }
 
+.price_propiedad_icons{
+text-align: right;
+background-color: rgba(255, 255, 255, 0.39);
+display: inline-block;
+padding-right: 10px;
+top: 0px;
+position: absolute;
+width: 100%;
+left: 0px;
+}
+
+.imgs_propiedad_icons{
+	
+background-color: rgba(255, 255, 255, 0.39);
+border-radius: 0px 0px 2px 2px;
+display: inline-block;
+position:Absolute;
+left:0px;
+bottom:0px;
+width:100%;
+}
+
+.modal_property_search{
+	height:500px;
+	max-height: 500px;
+	overflow-y:scroll;
+	border:0px solid black;
+}
+.first_row_caracteristica{
+	width: 85%;
+margin: 0 auto;
+}
+.caracteristicas_propiedad hr{
+	color: #2F332C;
+background-color: rgba(26, 23, 23, 0.28);
+height: 0.8px;
+}
+#peq_img{
+	float: left;
+width: auto;
+margin: 0;
+cursor:pointer;
+}
+#img_principal{
+	text-align: center;
+}
+#img_principal_mostrada{
+box-shadow: 3px 0px 30px -1px #000;
+transition:0.6s;
+width: 66%;
+height: 350px;
+z-index:-1;
+}
+#img_principal_mostrada:hover {
+-webkit-filter: contrast(120%);
+z-index:-1;
+}
+#imagen_propiedad{
+	display:inline-block;
+	margin-top:3px;
+	z-index:5;
+	
+}
 article textarea{
 	border-radius:2px;
 	border:1px solid rgba(0,0,0,0.3);
@@ -38,6 +101,9 @@ article textarea{
 }
 .select_zona_propiedad{
 	width:150px;
+	border: 0px solid;
+	box-shadow: 2px 1px 6px;
+	height: 23px;
 }
 .imgs_propiedad_icons{
 width: 100%;
@@ -53,20 +119,28 @@ word-spacing: 4px;
 }
 
 .propiedad_img_prin{
+	margin-top:20px;
 	transition:1s;
 	cursor:pointer;
+	height:72%;
+	width:69%;
 	border: 4px double #CACACA;
 	}
 .propiedad_img_prin:hover{
-width: 73%;
+width: 69%;
 border-radius: 2px;
-height: 74%;
+
+}
+.img_principal hr{
+	color: #2F332C;
+background-color: rgba(26, 23, 23, 0.28);
+height: 0.8px;
 }
 .tipo_propiedad{
 	
 	text-align: center;
 	padding:10px;
-	width:180px;
+	width:185px;
 	height:100%;
 	border-right:1px solid rgba(119, 117, 117, 0.72);
 }
@@ -94,6 +168,7 @@ height: 74%;
 background-color:rgba(236, 227, 227, 0);
 }
 .result_busqueda_box{	
+	position:relative;
 	cursor:pointer;
 	transition:0.4s;
 	margin-left: 1px;
@@ -121,7 +196,7 @@ background-color:rgba(236, 227, 227, 0);
 	border-bottom:1px solid #AD8A8A;
 	position:relative;
 	height:40px;
-	background-color:rgba(255, 223, 55, 0.5);
+	background: -webkit-linear-gradient(#F5FA7A 2.32%, #E2CE3C 98%,#E2EE89 120%);
 }
 .min-logo-text{
 	font-size:22px;
@@ -163,6 +238,8 @@ text-shadow: 1px 1px 1px #000;
 color: #FFF;
 }
 .links-cabe{
+	position:fixed;
+	width:100%;
 	z-index:9;
 }
 .lupa_search{
@@ -339,12 +416,13 @@ height:auto;
 	margin:0 auto;
 }
 .cabecera{
-	
+margin-left:auto;
+margin-right:auto;
 	color: #FFF;
-margin: 0 auto;
+
 position: relative;
-width: auto;
-display: inline-block;
+width: 882px;
+
 
 }
 .contact_moreinfo_box:hover{

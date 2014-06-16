@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '192.254.143.157';
-$db['default']['username'] = 'miramar_adm';
-$db['default']['password'] = 'Miramar01';
+$db['default']['hostname'] = '127.0.0.1';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'miramar_peru';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
