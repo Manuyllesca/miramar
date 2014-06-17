@@ -47,7 +47,7 @@
 			
 			
 			<div class="logo-miramar">
-					<h1 class="logo-middle"><i class="letter-m">M</i>iramars </h1>
+					<h1 class="logo-middle"><i class="letter-m">M</i>iramarss </h1>
 					<div style="margin:0 auto; width:143px; top:-21px;position:relative;"><small class="min-logo-text">Bienes y Raices</small></div>
 				</div>
 			
