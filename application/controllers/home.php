@@ -335,6 +335,7 @@ class Home extends CI_Controller {
 				<input type="hidden" id="ascensor_propiedad_'.$post_original.'"value='.$querymasinforesultados19[0]['meta_value'].'>
 				<input type="hidden" id="deposito_propiedad_'.$post_original.'"value='.$querymasinforesultados20[0]['meta_value'].'>
 				<input type="hidden" id="furnishing_propiedad_'.$post_original.'"value='.$querymasinforesultados21[0]['meta_value'].'>
+<<<<<<< HEAD
 				<input type="hidden" id="code_propiedad_'.$post_original.'"value='.$var_posts[$a]['post_title'].'>
 				
 	
@@ -342,6 +343,10 @@ class Home extends CI_Controller {
 					
 			/*echo $var_posts[$a]['post_title'].'<br>';
 			echo $var_posts[$a]['post_content'].'<br><br>';*/
+=======
+				
+
+>>>>>>> da05f5903f1b279671368b6acea4efa4892f3476
 			
 				}
 		
