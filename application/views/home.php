@@ -19,7 +19,7 @@
 		
 		<div class="cabecera" >
 					<div class="pull-left" style="margin-left:15px;">
-					<h2 id="index_go">Inicios</h2>
+					<h2 id="index_go">Inicio</h2>
 					</div>	
 					<div class="pull-left">
 					<h2 id="propiedades_go">Novedades</h2>
@@ -47,7 +47,7 @@
 			
 			
 			<div class="logo-miramar">
-					<h1 class="logo-middle"><i class="letter-m">M</i>iramar </h1>
+					<h1 class="logo-middle"><i class="letter-m">M</i>iramars </h1>
 					<div style="margin:0 auto; width:143px; top:-21px;position:relative;"><small class="min-logo-text">Bienes y Raices</small></div>
 				</div>
 			
