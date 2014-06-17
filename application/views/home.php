@@ -19,7 +19,7 @@
 		
 		<div class="cabecera" >
 					<div class="pull-left" style="margin-left:15px;">
-					<h2 id="index_go">Inicio</h2>
+					<h2 id="index_go">Inicios</h2>
 					</div>	
 					<div class="pull-left">
 					<h2 id="propiedades_go">Novedades</h2>
